@@ -19,7 +19,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class MigoAPI {
+public class MigoAPITest {
 //    private static String token;
     private static final String endpoint = "https://qa-interview-api.migo.money";
     private static final String user = "egg";
