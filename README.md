@@ -7,3 +7,8 @@ Run
 ```bash
 mvn clean test
 ```
+## Test report
+Using Allure, after test execution run
+```bash
+allure serve .\target\surefire-reports
+```
